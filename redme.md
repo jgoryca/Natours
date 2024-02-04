@@ -1,1 +1,0 @@
-A project from Advanced CSS and Sass course by Jonas Schmedtmann
