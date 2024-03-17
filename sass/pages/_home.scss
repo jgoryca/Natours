@@ -20,7 +20,8 @@
   transform: skewY(-7deg);
   margin-top: -12rem;
 
-  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+    only screen and (min-width: 125em) {
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.802),
@@ -82,8 +83,8 @@
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
 
-  @media (min-resolution: 192dpi) and (min-width: 37.5em),
-    (min-width: 56.25em) {
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+    only screen and (min-width: 56.25em) {
     background-image: linear-gradient(
         105deg,
         rgba($color-white, 0.9) 0,
@@ -103,8 +104,8 @@
       url(../img/nat-10-small.jpg);
     background-size: cover;
 
-    @media (min-resolution: 192dpi) and (min-width: 37.5em),
-      (min-width: 56.25em) {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+      only screen and (min-width: 56.25em) {
       background-image: linear-gradient(
           105deg,
           rgba($color-white, 0.9) 0,
@@ -123,7 +124,7 @@
       ),
       url(../img/nat-10-small.jpg);
 
-    @media (min-resolution: 192dpi) and (min-width: 37.5em) {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em) {
       background-image: linear-gradient(
           to right,
           rgba($color-white, 0.9) 0,
